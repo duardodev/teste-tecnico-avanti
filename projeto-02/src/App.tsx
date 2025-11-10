@@ -5,7 +5,7 @@ import ellipseTwo from './assets/ellipse-2.svg';
 
 function App() {
   return (
-    <div className="h-screen w-screen relative flex items-center justify-center">
+    <div className="h-screen w-screen relative flex items-center justify-center overflow-x-hidden">
       <img src={camada} alt="" className="absolute left-[73px] top-[28px] -z-10" />
       <img src={ellipseOne} alt="" className="absolute right-0 -z-10 top-0" />
       <img src={ellipseTwo} alt="" className="absolute left-0 top-[198px] -z-10" />
