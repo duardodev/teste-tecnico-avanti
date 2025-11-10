@@ -53,7 +53,7 @@ export function GitHubUserFinder() {
             value={username}
             onChange={e => setUsername(e.target.value)}
             placeholder="Digite um usuário do Github"
-            className="text-black placeholder:text-black font-semibold text-xl focus:outline-none pr-[170px] flex-1 h-full"
+            className="text-black placeholder:text-black font-semibold text-xl focus:outline-none pr-4 flex-1 h-full"
           />
 
           <button
